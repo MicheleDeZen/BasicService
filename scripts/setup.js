@@ -3,11 +3,10 @@
 const db = require('@arangodb').db;
 
 //Define collections
-//const exampleCollection = 'ExCollectionName';
+const commesse = 'commesse';
 
 //Create the collection if it doesn't exist
-/*
-if(!db._collection(exampleCollection)){
-    db._createDocumentCollection(exampleCollection);
+
+if (!db._collection(commesse)) {
+    db._createDocumentCollection(commesse);
 }
-*/
